@@ -1,0 +1,25 @@
+body {
+  padding-top: 70px;
+
+  display: flex;
+}
+.jumbotron {
+  background-image: url(./img/pexels-photo-2909067.jpeg);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.navbar-inverse {
+  background: #2c3e50;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.img-thumbnail {
+  height: 350px;
+  width: 600%;
+
+  object-fit: cover;
+}
